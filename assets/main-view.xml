@@ -1,0 +1,16 @@
+<vbox style="padding-bottom:10px">
+    <image resource="assets/banner.png" width="500" height="141" />
+    <label id="topText" text="Looks like Eternal crashed." width="100%" horizontalAlign="center" style="text-align:center" />
+    <vbox width="100%" style="padding:10px; padding-top:0; padding-bottom:0;">
+        <scrollview width="100%" height="200">
+            <label id="crashDump" />
+        </scrollview>
+    </vbox>
+    <label id="notice" text="Please report this on GitHub if you believe this crash was caused by the engine!" width="100%" horizontalAlign="center" style="text-align:center" />
+    <hbox horizontalAlign="center" style="padding:2px; spacing:10px;">
+        <button id="restartBtn" text="Restart" />
+        <button id="dumpBtn" text="View Logs" />
+        <button id="githubBtn" text="GitHub" />
+        <button id="exitBtn" text="Exit" />
+    </hbox>
+</vbox>
